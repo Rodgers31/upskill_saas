@@ -18,12 +18,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/" class="navbar-brand"><i class="fa fa-group"></i> Chatbuddy</a>
+     
+      <%= link_to "/", class: "navbar-brand" do %>
+       <i class="fa fa-group"></i>
+       Chatbuddy
+      <% end %>
      
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/about">About</a></li>
+        
+        <li><%= link_to "About", "/about" %></li>
     
       </ul>
     </div><!-- /.navbar-collapse -->
