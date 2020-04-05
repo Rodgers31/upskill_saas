@@ -37,12 +37,16 @@ gem 'font-awesome-sass', '4.6.2'
 #Use Hirb for better database table display is console
 gem 'hirb', '0.7.3'
 
+# Use Devise for user authentication
+gem 'devise', '4.2.0'
+
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+ 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
+ gem 'byebug', platform: :mri
 end
 
 group :development do
@@ -52,11 +56,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '2.0.0'
-end
-
-group :production do
-  #Use the PostgreSQL gem for Heroku prodution servers
-  gem 'pg', '0.18.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
