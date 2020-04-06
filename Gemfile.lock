@@ -41,11 +41,7 @@ GEM
     arel (7.1.4)
     autoprefixer-rails (8.6.0)
       execjs
-<<<<<<< HEAD
-    bcrypt (3.1.13)
-=======
     bcrypt (3.1.12)
->>>>>>> d057a99e98bb48099dae8f57a06e94ecb3952226
     bindex (0.5.0)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -101,10 +97,6 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
-<<<<<<< HEAD
-=======
-    pg (0.18.4)
->>>>>>> d057a99e98bb48099dae8f57a06e94ecb3952226
     puma (3.4.0)
     rack (2.0.5)
     rack-test (0.6.3)
@@ -136,15 +128,9 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-<<<<<<< HEAD
-    responders (2.4.1)
-      actionpack (>= 4.2.0, < 6.0)
-      railties (>= 4.2.0, < 6.0)
-=======
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
->>>>>>> d057a99e98bb48099dae8f57a06e94ecb3952226
     sass (3.5.6)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
