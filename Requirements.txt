@@ -1,0 +1,5 @@
+Memberships
+* User should see link for Basic plan on home page
+* User should see link for Pro plan on home
+* Basic plan link shouldpoint to regukar Device sign up form
+* Pro link should point to a custom sign up form
